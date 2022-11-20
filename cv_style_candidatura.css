@@ -1,0 +1,228 @@
+/* HELPING TOOLS */
+
+/*
+.writting_area > div
+{
+  background: #AAAAAA;
+  padding: 1em;
+}
+
+.writting_area > div:nth-child(odd)
+{
+  background: #BBBBBB;
+}
+*/
+
+.navigation {
+   position: sticky;
+   top: 0;
+   z-index: 100;
+   background-color: #DDDDDD;
+   opacity: 0.8;
+   /* z-index works pretty much like a layer:
+   the higher the z-index value, the greater
+   it will allow the navigation tag to stay on top
+   of other tags */
+}
+
+#pdf
+{
+  padding-left: 2em;
+  font-family: "FF Milo_light";
+  text-decoration: none;
+  color: white;
+
+  transition: all 0.5s;
+}
+
+#pdf:hover
+{
+  color: #002FA7;
+}
+
+/* GRID ORGANIZATION */
+
+.writting_area > div
+{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+hr
+{
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+ul
+{
+  list-style: none;
+}
+
+.main_separator
+{
+  height: 5px;
+
+  background-color: #333;
+
+  margin-bottom: 0.5em;
+  margin-top: 0em;
+}
+
+.separator
+{
+  height: 1px;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+
+  background-color: #AAAAAA;
+}
+
+.header
+{
+  display: grid;
+  grid-template-columns: 54% 46%;
+}
+
+.entries
+{
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-top: 0em;
+  margin-bottom: -1.5em;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.university, .job
+{
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 2em;
+}
+
+.time_frame
+{
+  padding-left: 0.5em;
+  text-decoration: none;
+
+  color: #AAAAAA;
+
+  transition: all 0.5s;
+}
+
+.link_file
+{
+  padding-left: 0em;
+  text-decoration: none;
+
+  color: #AAAAAA;
+
+  transition: all 0.5s;
+}
+
+.link_file:hover
+{
+  color: #002FA7;
+}
+
+/* WRITTING */
+
+.face > h1
+{
+  font-family: "FF Milo_bold";
+  font-size: 40px;
+}
+.face > h2
+{
+  font-family: "FF Milo_light";
+  font-size: 25px;
+  letter-spacing: 0.25em;
+
+  color: #AAAAAA;
+}
+
+.work > h2
+{
+  margin-top: -2em;
+  margin-bottom: -2em;
+}
+
+.university, .job > h3
+{
+  font-size: 17px;
+}
+
+.position, .courses, .expertise > ul > li
+{
+  font-family: "FF Milo_light";
+  font-size: 17px;
+}
+
+.contact-info
+{
+  font-family: "FF Milo";
+  font-size: 12px;
+  color: #AAAAAA;
+
+  border: 2px solid white;
+  padding-top: 5.4em;
+}
+
+#mail, #website
+{
+  text-decoration: none;
+  color: #AAAAAA;
+
+  transition: all 0.5s;
+}
+
+#mail:hover, #website:hover
+{
+  color: #002FA7;
+}
+
+.work > h2
+{
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.work, .education, .expertise
+{
+  font-family: "FF Milo";
+}
+
+h2
+{
+  font-family: "FF Milo_bold"
+}
+
+
+/* FONTS */
+
+@font-face
+{
+  font-family: "FF Milo";
+  src: url('FONTS/FF Milo OT.otf');
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face
+{
+  font-family: "FF Milo_light";
+  src: url('FONTS/FF Milo OT Light.otf');
+  font-style: normal;
+  font-weight: 50;
+}
+
+@font-face
+{
+  font-family: "FF Milo_bold";
+  src: url('FONTS/FF Milo OT Bold.otf');
+  font-style: normal;
+  font-weight: 200;
+}

@@ -1,0 +1,183 @@
+/**********************************************
+SIMPLE STYLING FOR THOMAS GAEHTGENS' WEBSITE CV
+***********************************************/
+@font-face
+{
+  font-family: "FF Milo";
+  src: url('FONTS/FF Milo Serif OT Medium.otf');
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face
+{
+  font-family: "FF Milo_light";
+  src: url('FONTS/FF Milo OT Light.otf');
+  font-style: normal;
+  font-weight: 50;
+}
+
+@font-face
+{
+  font-family: "FF Milo";
+  src: url('FONTS/FF Milo OT Bold.otf');
+  font-style: normal;
+  font-weight: 200;
+}
+
+/* Give the body a width */
+body
+{
+  font-family: "FF Milo_light";
+  font-weight: 50;
+
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* Make the nav take up the whole body width, and give it some top and bottom margin space */
+nav
+{
+  font-size: 40px;
+
+  width: 100%;
+  margin: 20px 0;
+}
+
+#hello
+{
+  font-size: 60px;
+}
+
+#name
+{
+  color: #003399;
+  font-family: "FF Milo";
+}
+#job
+{
+  background-color: #FFFF00;
+}
+#lisbon
+{
+  color: #dd0100;
+  text-decoration: underline;
+}
+#introduction
+{
+  font-size: 30px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 780px;
+  margin: auto;
+  margin-top:-40px;
+}
+
+#title
+{
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 780px;
+  margin: auto;
+  vertical-align: bottom;
+  margin-top:80px;
+  margin-bottom:0px;
+}
+
+#social_media
+{
+  text-align:center;
+  align-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 150px 150px 150px;
+
+  max-width: 815px;
+  max-height: 50px;
+  margin:20px auto;
+  vertical-align: top;
+}
+
+#social_media .logos
+{
+  height: 60px;
+  width: 60px;
+
+  margin:10px;
+  padding-left: 5px;
+
+  transition: transform 0.5s;
+}
+
+#social_media .logos:hover
+{
+  transform:scale(1.2);
+
+  margin:10px;
+  colo
+
+  transition-timing-function: ease;
+}
+
+#information
+{
+  font-family: "FF Milo";
+  font-size: 40px;
+  font-weight: 200;
+
+  text-align:center;
+  align-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 920px;
+  max-height: 50px;
+  margin:20px auto;
+  vertical-align: bottom;
+}
+
+#information .box
+{
+  color: #000000;
+  text-decoration: none;
+
+  width: 33.33%;
+  margin:35px auto;
+
+  transition: transform 0.5s, background-color 0.5s, color 0.5s;
+}
+
+#information .box:hover
+{
+  color: #AAAAAA;
+
+  transform:scale(1.05);
+  transition-timing-function: ease;
+}
+
+#information .box:active
+{
+  /*background-color: #002fa7;*/
+  transition: transform 0.5s, background-color 0.5s, color 0.1s;
+  color: white;
+
+  transform:scale(1.5);
+  transition-timing-function: ease;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   height:60px;   /* Height of the footer */
+
+   display: flex;
+   flex-wrap: wrap;
+
+   max-width: 600px;
+   color: white;
+}
