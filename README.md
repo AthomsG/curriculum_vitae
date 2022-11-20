@@ -1,3 +1,3 @@
 # ThomasGaehtgens
 
-website [here](https://athomsg.github.io/ThomasGaehtgens/)
+website [here](https://athomsg.github.io/curriculum_vitae/)
